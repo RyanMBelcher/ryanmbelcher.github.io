@@ -1,14 +1,14 @@
-import { PortfolioItem } from '../PortfolioItem';
+import { Project } from '../Project';
 
 export default function Portfolio() {
     return (
         <div>
-            <h1>Portfolio</h1>
-            <PortfolioItem />
-            <PortfolioItem />
-            <PortfolioItem />
-            <PortfolioItem />
-            <PortfolioItem />
+            <h2>Portfolio</h2>
+            <Project />
+            <Project />
+            <Project />
+            <Project />
+            <Project />
         </div>
     );
 };
