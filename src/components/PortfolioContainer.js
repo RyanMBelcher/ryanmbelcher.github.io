@@ -1,13 +1,13 @@
 import { useState } from 'react';
-import { NavItem } from './NavItem';
+import { Header } from './Header';
 import AboutMe from './pages/AboutMe';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
-import Resume from './resume';
+import Resume from './pages/Resume';
 
 export default function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState('AboutMe');
-
+    console.log(currentPage);
     const renderPage = () => {
         if (currentPage === 'AboutMe') {
             return <AboutMe />
@@ -22,10 +22,11 @@ export default function PortfolioContainer() {
     };
 
     const handlePageChange = (page) => setCurrentPage(page);
+    console.log('handle page change from parent', handlePageChange);
 
     return (
         <div>
-            <NavItem currentPage={currentPage} handlePageChange={handlePageChange} />
+            <Header handlePageChange={handlePageChange} currentPage={currentPage} />
             {renderPage()}
         </div>
     );
