@@ -1,7 +1,6 @@
 import { NavItem } from './NavItem';
 
 export function Header({ currentPage, handlePageChange }) {
-    console.log(handlePageChange);
     return (
         <header>
             <ul>
