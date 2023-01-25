@@ -1,0 +1,11 @@
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    padding-top: 40px;
+}
+
+.content {
+    max-width: 800px;
+    flex-grow: 1;
+}
