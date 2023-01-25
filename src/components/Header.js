@@ -1,4 +1,5 @@
 import { NavItem } from './NavItem';
+import '../styles/Header.css'
 
 export function Header({ currentPage, handlePageChange }) {
     return (

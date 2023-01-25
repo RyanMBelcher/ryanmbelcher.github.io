@@ -3,7 +3,7 @@ export default function Resume() {
         <div>
             <h2>Resume</h2>
             <p>Download my resume</p>
-            <h1>Front-end Proficiencies</h1>
+            <h3>Front-end Proficiencies</h3>
             <ul>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -13,7 +13,7 @@ export default function Resume() {
                 <li>React</li>
                 <li>Bootstrap</li>
             </ul>
-            <h1>Back-end Proficiencies</h1>
+            <h3>Back-end Proficiencies</h3>
             <ul>
                 <li>APIs</li>
                 <li>Node</li>
