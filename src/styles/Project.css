@@ -1,0 +1,30 @@
+.project-container {
+    position: relative;
+}
+
+.project-info {
+    position: absolute;
+    top: 50px;
+    left: 25px;
+}
+
+.project-container img {
+    opacity: .4;
+    height: 300px;
+    width: 100%;
+    border: 5px solid #9696E0;
+}
+
+.project-container img:hover {
+    box-shadow: 0px 1px 2px 0px #01CDFE,
+        1px 2px 4px 0px #01CDFE,
+        2px 4px 8px 0px #01CDFE,
+        2px 4px 16px 0px #01CDFE;
+    opacity: 0.6;
+}
+
+.project-name {
+    font-family: 'VT323', monospace;
+    font-size: 200%;
+    text-decoration: none;
+}

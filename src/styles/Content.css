@@ -7,5 +7,6 @@
 
 .content {
     max-width: 800px;
+    min-height: calc(100vh - 20px);
     flex-grow: 1;
 }
