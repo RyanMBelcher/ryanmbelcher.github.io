@@ -92,7 +92,7 @@ export default function Contact() {
                         placeholder='Message'
                     />
                 </div>
-                <button type='button'>Submit</button>
+                <button className='contact-btn' type='button'>Submit</button>
             </form>
             {errorMessage && (
                 <div>

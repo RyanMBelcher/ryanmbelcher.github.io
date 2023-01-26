@@ -1,4 +1,5 @@
 .header-item a {
     display: flex;
     flex-direction: column;
+    text-decoration: none;
 }

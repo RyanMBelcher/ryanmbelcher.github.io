@@ -2,10 +2,15 @@
     position: relative;
 }
 
-.project-info {
+.project-container .project-info {
     position: absolute;
     top: 50px;
     left: 25px;
+    opacity: 0;
+}
+
+.project-container:hover .project-info {
+    opacity: 1;
 }
 
 .project-container img {
@@ -15,11 +20,11 @@
     border: 5px solid #9696E0;
 }
 
-.project-container img:hover {
-    box-shadow: 0px 1px 2px 0px #01CDFE,
-        1px 2px 4px 0px #01CDFE,
-        2px 4px 8px 0px #01CDFE,
-        2px 4px 16px 0px #01CDFE;
+.project-container:hover img {
+    box-shadow: 0px 1px 2px 0px #6BDAFD,
+        1px 2px 4px 0px #6BDAFD,
+        2px 4px 8px 0px #6BDAFD,
+        2px 4px 16px 0px #6BDAFD;
     opacity: 0.6;
 }
 
