@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react';
+import React, { useState, useRef } from 'react';
 import { validateEmail } from '../../utils/helpers';
 import emailjs from '@emailjs/browser';
 import '../../styles/Contact.css'
@@ -11,7 +11,8 @@ export default function Contact() {
     const form = useRef();
 
     const sendEmail = async (e) => {
-        e.preventDefault()
+        e.preventDefault();
+        console.log('send email fired');
 
         try {
             const result = await emailjs.sendForm(
@@ -23,7 +24,10 @@ export default function Contact() {
                 // public key
                 'd2cqSDVz1vZZfUyZ1',
             )
-            return console.log(result);
+            console.log(result);
+            setName('');
+            setEmail('');
+            setMessage('');
         } catch (error) {
             console.error(error);
         }
@@ -34,9 +38,9 @@ export default function Contact() {
         const inputType = target.name;
         const inputValue = target.value;
 
-        if (inputType === 'name') {
+        if (inputType === 'user_name') {
             setName(inputValue);
-        } else if (inputType === 'email') {
+        } else if (inputType === 'user_email') {
             setEmail(inputValue)
         } else {
             setMessage(inputValue)
@@ -60,10 +64,6 @@ export default function Contact() {
             setErrorMessage('Message is required');
             return;
         }
-
-        setName('');
-        setEmail('');
-        setMessage('');
     };
 
     return (
@@ -71,11 +71,11 @@ export default function Contact() {
             <h2>Contact</h2>
             <form ref={form} onSubmit={sendEmail}>
                 <div className='input-container'>
-                    <label for='name'> Name </label>
+                    <label htmlFor='user_name'> Name </label>
                     <input
                         value={name}
-                        name='name'
-                        id='name'
+                        name='user_name'
+                        id='user_name'
                         onBlur={handleOnBlur}
                         onChange={handleInputChange}
                         type='text'
@@ -84,11 +84,11 @@ export default function Contact() {
 
                 </div>
                 <div className='input-container'>
-                    <label for='email'> Email </label>
+                    <label htmlFor='user_email'> Email </label>
                     <input
                         value={email}
-                        name='email'
-                        id='email'
+                        name='user_email'
+                        id='user_email'
                         onBlur={handleOnBlur}
                         onChange={handleInputChange}
                         type='email'
@@ -97,7 +97,7 @@ export default function Contact() {
 
                 </div>
                 <div className='input-container'>
-                    <label for='message'> Message </label>
+                    <label htmlFor='message'> Message </label>
                     <textarea
                         value={message}
                         name='message'
@@ -109,7 +109,7 @@ export default function Contact() {
                         placeholder='Message'
                     />
                 </div>
-                <button className='contact-btn' type='button'>Submit</button>
+                <button className='contact-btn' type='submit'>Submit</button>
             </form>
             {errorMessage && (
                 <div>
