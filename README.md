@@ -40,4 +40,4 @@ I could not have done this without my amazing instructional team at the Penn Boo
 
 If you have any questions about the repo, open an issue or 
 contact me directly at ryanmbelcher86@gmail.com. You can find more of my work at 
-https://github.com/ryanmbelcher.
+https://github.com/ryanmbelcher.git 
