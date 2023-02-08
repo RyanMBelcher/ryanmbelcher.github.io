@@ -1,5 +1,6 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import { validateEmail } from '../../utils/helpers';
+import emailjs from '@emailjs/browser';
 import '../../styles/Contact.css'
 
 export default function Contact() {
@@ -7,7 +8,26 @@ export default function Contact() {
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
-    const [touched, setTouched] = useState({ name: false, email: false, message: false })
+    const form = useRef();
+
+    const sendEmail = async (e) => {
+        e.preventDefault()
+
+        try {
+            const result = await emailjs.sendForm(
+                // service ID
+                'service_9sknkth',
+                // template ID,
+                'template_bmugvlw',
+                form.current,
+                // public key
+                'd2cqSDVz1vZZfUyZ1',
+            )
+            return console.log(result);
+        } catch (error) {
+            console.error(error);
+        }
+    }
 
     const handleInputChange = (e) => {
         const { target } = e;
@@ -49,7 +69,7 @@ export default function Contact() {
     return (
         <div>
             <h2>Contact</h2>
-            <form>
+            <form ref={form} onSubmit={sendEmail}>
                 <div className='input-container'>
                     <label for='name'> Name </label>
                     <input
@@ -57,7 +77,6 @@ export default function Contact() {
                         name='name'
                         id='name'
                         onBlur={handleOnBlur}
-                        // onClick={() => setTouched((prevState) => ({ ...prevState, name: true }))}
                         onChange={handleInputChange}
                         type='text'
                         placeholder='Name'
@@ -70,7 +89,6 @@ export default function Contact() {
                         value={email}
                         name='email'
                         id='email'
-                        // onClick={() => setTouched((prevState) => ({ ...prevState, email: true }))}
                         onBlur={handleOnBlur}
                         onChange={handleInputChange}
                         type='email'
@@ -84,7 +102,6 @@ export default function Contact() {
                         value={message}
                         name='message'
                         id='message'
-                        // onClick={() => setTouched((prevState) => ({ ...prevState, message: true }))}
                         onBlur={handleOnBlur}
                         onChange={handleInputChange}
                         rows={10}
