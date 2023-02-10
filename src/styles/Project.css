@@ -2,6 +2,19 @@
     position: relative;
 }
 
+.project-container-header {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: solid;
+}
+
+/* .header-icon {
+    padding: 0;
+    margin: 0;
+} */
+
 .project-container .project-info {
     position: absolute;
     top: 50px;
