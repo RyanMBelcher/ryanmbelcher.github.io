@@ -8,6 +8,7 @@
     margin-bottom: 5px;
 }
 
-/* .contact-btn {
 
-} */
+.contact-btn {
+    cursor: pointer;
+}

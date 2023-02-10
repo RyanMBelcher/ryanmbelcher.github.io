@@ -5,13 +5,13 @@ export function Project({ repoLink, deployedLink, name, description, image, alt 
     return (
         <div className='project-container'>
             <div className='project-container-header'>
-                <span>{name}</span>
+                <span className='project-title'>{name}</span>
                 <span>
-                    <svg height="16" width="16" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M4 10v1h8v-1z" color="#000" font-weight="400" font-family="sans-serif" white-space="normal" overflow="visible" fill="gray" />
+                    <svg className='project-icons' height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4 10v1h8v-1z" font-weight="400" font-family="sans-serif" white-space="normal" overflow="visible" />
                     </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="mdi-window-maximize" width="24" height="24" viewBox="0 0 24 24"><path d="M4,4H20V20H4V4M6,8V18H18V8H6Z" /></svg>
-                    <svg height="16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M4.795 3.912l-.883.883.147.146L7.117 8 4.06 11.059l-.147.146.883.883.146-.147L8 8.883l3.059 3.058.146.147.883-.883-.147-.146L8.883 8l3.058-3.059.147-.146-.883-.883-.146.147L8 7.117 4.941 4.06z" color="#000" overflow="visible" />
+                    <svg className='project-icons' xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="mdi-window-maximize" width="16" height="16" viewBox="0 0 24 24"><path d="M4,4H20V20H4V4M6,8V18H18V8H6Z" /></svg>
+                    <svg className='project-icons' height="16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M4.795 3.912l-.883.883.147.146L7.117 8 4.06 11.059l-.147.146.883.883.146-.147L8 8.883l3.059 3.058.146.147.883-.883-.147-.146L8.883 8l3.058-3.059.147-.146-.883-.883-.146.147L8 7.117 4.941 4.06z" overflow="visible" />
                     </svg>
                 </span>
             </div>
