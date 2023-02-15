@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/assets/favicon.ico" />
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <!-- <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" /> -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/assets/decolines.css" />
+  <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+  <!-- <link rel="manifest" href="%PUBLIC_URL%/manifest.json" /> -->
+  <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+  <title>Ryan Belcher Portfolio</title>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  <script src='%PUBLIC_URL%/assets/anime.min.js'></script>
+  <script src='%PUBLIC_URL%/assets/main.js'></script>
+  <script>
+    (function () {
+      var lineMaker = new LineMaker({
+        position: 'fixed',
+        lines: [
+          { top: 0, left: '10vw', width: 1, height: '100%', color: '#fff', hidden: true, animation: { duration: 2000, easing: 'easeInOutSine', delay: 0, direction: 'TopBottom' } },
+          { top: 0, left: '20vw', width: 1, height: '100%', color: '#fff', hidden: true, animation: { duration: 2000, easing: 'easeInOutSine', delay: 20, direction: 'TopBottom' } },
+          { top: 0, left: '30vw', width: 1, height: '100%', color: '#fff', hidden: true, animation: { duration: 2000, easing: 'easeInOutSine', delay: 40, direction: 'TopBottom' } },
+          { top: 0, left: '40vw', width: 1, height: '100%', color: '#fff', hidden: true, animation: { duration: 2000, easing: 'easeInOutSine', delay: 60, direction: 'TopBottom' } },
+          { top: 0, left: '50vw', width: 1, height: '100%', color: '#fff', hidden: true, animation: { duration: 2000, easing: 'easeInOutSine', delay: 80, direction: 'TopBottom' } },
+          { top: 0, left: '60vw', width: 1, height: '100%', color: '#fff', hidden: true, animation: { duration: 2000, easing: 'easeInOutSine', delay: 100, direction: 'TopBottom' } },
+          { top: 0, left: '70vw', width: 1, height: '100%', color: '#fff', hidden: true, animation: { duration: 2000, easing: 'easeInOutSine', delay: 120, direction: 'TopBottom' } },
+          { top: 0, left: '80vw', width: 1, height: '100%', color: '#fff', hidden: true, animation: { duration: 2000, easing: 'easeInOutSine', delay: 140, direction: 'TopBottom' } },
+          { top: 0, left: '90vw', width: 1, height: '100%', color: '#fff', hidden: true, animation: { duration: 2000, easing: 'easeInOutSine', delay: 160, direction: 'TopBottom' } },
+          { top: '10vh', left: 0, width: '100%', height: 1, color: '#fff', hidden: true, animation: { duration: 2000, easing: 'easeInOutSine', delay: 20, direction: 'LeftRight' } },
+          { top: '20vh', left: 0, width: '100%', height: 1, color: '#fff', hidden: true, animation: { duration: 2000, easing: 'easeInOutSine', delay: 40, direction: 'LeftRight' } },
+          { top: '30vh', left: 0, width: '100%', height: 1, color: '#fff', hidden: true, animation: { duration: 2000, easing: 'easeInOutSine', delay: 60, direction: 'LeftRight' } },
+          { top: '40vh', left: 0, width: '100%', height: 1, color: '#fff', hidden: true, animation: { duration: 2000, easing: 'easeInOutSine', delay: 80, direction: 'LeftRight' } },
+          { top: '50vh', left: 0, width: '100%', height: 1, color: '#fff', hidden: true, animation: { duration: 2000, easing: 'easeInOutSine', delay: 100, direction: 'LeftRight' } },
+          { top: '60vh', left: 0, width: '100%', height: 1, color: '#fff', hidden: true, animation: { duration: 2000, easing: 'easeInOutSine', delay: 120, direction: 'LeftRight' } },
+          { top: '70vh', left: 0, width: '100%', height: 1, color: '#fff', hidden: true, animation: { duration: 2000, easing: 'easeInOutSine', delay: 140, direction: 'LeftRight' } },
+          { top: '80vh', left: 0, width: '100%', height: 1, color: '#fff', hidden: true, animation: { duration: 2000, easing: 'easeInOutSine', delay: 160, direction: 'LeftRight' } },
+          { top: '90vh', left: 0, width: '100%', height: 1, color: '#fff', hidden: true, animation: { duration: 2000, easing: 'easeInOutSine', delay: 180, direction: 'LeftRight' } }
+        ]
+      });
+
+      setTimeout(function () {
+        lineMaker.animateLinesIn();
+      }, 500);
+    })();
+  </script>
+</body>
+
+</html>

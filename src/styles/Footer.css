@@ -1,0 +1,23 @@
+.custom-footer {
+    background-color: #CEC6FF;
+    height: 75px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.footer-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: row;
+}
+
+.footer-item {
+    padding: 10px;
+}
+
+.footer-svg {
+    fill: #fff;
+}
