@@ -17,14 +17,15 @@
     text-transform: uppercase;
 }
 
-.contact-wrapper {
+.section-wrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 0 auto;
     padding: 20px;
     position: relative;
-    max-width: 100%;
+    /* max-width: 100%; */
+    width: 65%;
 }
 
 .form-horizontal {
@@ -33,10 +34,6 @@
 
 .input-container label {
     margin-bottom: 5px;
-}
-
-.contact-btn {
-    cursor: pointer;
 }
 
 .direct-contact-container {
@@ -72,10 +69,12 @@
 .social-media-list {
     position: relative;
     font-size: 22px;
-    text-align: center;
+    text-align: left;
     width: 100%;
-    margin: 0 auto;
-    padding: 0;
+    /* margin: 0 auto; */
+    margin-left: -30px;
+    /* padding: 0; */
+    padding-right: 20px;
 }
 
 .social-media-list li {
@@ -88,4 +87,31 @@
     border-radius: 50%;
     /* opacity: 0;
     box-shadow: 0 0 0 1px #fff; */
+}
+
+/* Button */
+
+.send-btn {
+    cursor: pointer;
+    margin-top: 15px;
+    height: 34px;
+    width: 150px;
+    overflow: hidden;
+    transition: all .2s ease-in-out;
+}
+
+.alt-send-btn {
+    width: 150px;
+    height: 34px;
+    transition: all .2s ease-in-out;
+}
+
+.alt-send-btn:hover {
+    transform: translate3d(0px, -29px, 0px);
+}
+
+.send-text {
+    display: block;
+    margin-top: 10px;
+    letter-spacing: 2px;
 }

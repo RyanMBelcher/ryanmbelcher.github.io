@@ -1,3 +1,4 @@
+import React from 'react';
 import { Project } from '../Project';
 import imageOne from '../../images/blog_homepage.png'
 import imageTwo from '../../images/weather-dashboard.png'
@@ -12,11 +13,15 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+// import 'swiper/swiper.scss'; 
+// import 'swiper/modules/navigation/navigation.scss'; 
+// import 'swiper/modules/pagination/pagination.scss'; 
+// import 'swiper/modules/scrollbar/scrollbar.scss';
 
 export default function Portfolio() {
     return (
-        <>
-            <h2>Portfolio</h2>
+        <div>
+            <h2 className='section-header'>Portfolio</h2>
             <Swiper
                 spaceBetween={50}
                 slidesPerView={2}
@@ -56,7 +61,7 @@ export default function Portfolio() {
                     <li class="glide__slide"><Project deployedLink={'https://ryanmbelcher.github.io/quiz-app/'} repoLink={'https://github.com/RyanMBelcher/quiz-app'} name={`Quiz App`} image={imageSix} alt={''} description={''} /></li>
                 </SwiperSlide>
             </Swiper>
-        </>
+        </div>
     );
 };
 

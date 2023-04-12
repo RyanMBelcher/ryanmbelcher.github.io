@@ -1,3 +1,4 @@
+import React from 'react';
 import { NavItem } from './NavItem';
 import myAvatar from '../images/myavatar.png'
 import '../styles/Header.css'

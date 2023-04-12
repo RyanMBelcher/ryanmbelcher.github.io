@@ -1,7 +1,8 @@
 import React, { useState, useRef } from 'react';
 import { validateEmail } from '../../utils/helpers';
 import emailjs from '@emailjs/browser';
-import '../../styles/Contact.css'
+import '../../styles/Contact.css';
+
 
 export default function Contact() {
     const [name, setName] = useState('');
@@ -68,8 +69,8 @@ export default function Contact() {
 
     return (
         <section id='contact'>
-            <h2>Contact</h2>
-            <div className='contact-wrapper'>
+            <h2 className='section-header'>Contact</h2>
+            <div className='section-wrapper'>
                 <form ref={form} onSubmit={sendEmail} id='contact-form' className='form-horizontal'>
                     <div className='input-container'>
                         <label htmlFor='user_name'> Name </label>
@@ -110,7 +111,11 @@ export default function Contact() {
                             placeholder='Message'
                         />
                     </div>
-                    <button className='contact-btn' type='submit'>Submit</button>
+                    <button className='send-btn' type='submit'>
+                        <div className='alt-send-btn'>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 0l-6 22-8.129-7.239 7.802-8.234-10.458 7.227-7.215-1.754 24-12zm-15 16.668v7.332l3.258-4.431-3.258-2.901z" /></svg>                            <span className='send-text'>Send</span>
+                        </div>
+                    </button>
                 </form>
                 <div className='direct-contact-container'>
                     <ul className='contact-list'>
