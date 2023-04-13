@@ -13,10 +13,6 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-// import 'swiper/swiper.scss'; 
-// import 'swiper/modules/navigation/navigation.scss'; 
-// import 'swiper/modules/pagination/pagination.scss'; 
-// import 'swiper/modules/scrollbar/scrollbar.scss';
 
 export default function Portfolio() {
     return (

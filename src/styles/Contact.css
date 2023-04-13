@@ -25,7 +25,7 @@
     padding: 20px;
     position: relative;
     /* max-width: 100%; */
-    width: 65%;
+    /* width: 65%; */
 }
 
 .form-horizontal {
@@ -94,15 +94,20 @@
 .send-btn {
     cursor: pointer;
     margin-top: 15px;
-    height: 34px;
+    margin-left: 10px;
+    padding: 0px;
+    height: 40px;
     width: 150px;
     overflow: hidden;
     transition: all .2s ease-in-out;
 }
 
 .alt-send-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 150px;
-    height: 34px;
+    height: 80px;
     transition: all .2s ease-in-out;
 }
 
@@ -114,4 +119,5 @@
     display: block;
     margin-top: 10px;
     letter-spacing: 2px;
+
 }
