@@ -1,12 +1,12 @@
 .content-wrapper {
+    width: 90%;
     display: flex;
-    justify-content: center;
     flex-grow: 1;
     padding-top: 40px;
 }
 
 .content {
-    max-width: 80%;
+    width: 100%;
     min-height: calc(100vh - 20px);
     flex-grow: 1;
 }
