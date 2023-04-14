@@ -22,7 +22,7 @@ export default function AboutMe() {
                         <br />
                         <br />
                         In my spare time, I enjoy running, traveling, cooking, and chilling with my wife.
-                        If you want to connect, my links are below or you can reach out to me here.
+                        If you want to connect, my links are below or you can reach out to me <a className='about-link' href='mailto:ryanmbelcher86@gmail.com'>here</a>.
                     </p>
                 </div>
             </div>

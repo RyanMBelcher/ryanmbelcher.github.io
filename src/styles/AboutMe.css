@@ -35,3 +35,8 @@
 #about-content-wrapper-child {
     margin: 0 10px;
 }
+
+.about-link {
+    color: #fff;
+    text-decoration: underline;
+}

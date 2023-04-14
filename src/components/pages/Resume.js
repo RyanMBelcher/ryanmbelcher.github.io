@@ -3,9 +3,9 @@ import '../../styles/Resume.css'
 
 export default function Resume() {
     return (
-        <div id='resume'>
+        <section id='resume'>
             <h2 className='section-header'>Resume</h2>
-            <p>Download my <a href='https://docs.google.com/document/d/1qyMVf2lJNgzssp95yTidSJWnpzRig2LNC3b4osdRMvM/edit?usp=sharing' target='_blank'>resume</a></p>
+            <p>Download my <a className='resume-link' href='https://docs.google.com/document/d/1qyMVf2lJNgzssp95yTidSJWnpzRig2LNC3b4osdRMvM/edit?usp=sharing' target='_blank'>resume</a></p>
             <h3>Front-end Proficiencies</h3>
             <ul>
                 <li>HTML</li>
@@ -26,6 +26,6 @@ export default function Resume() {
                 <li>REST</li>
                 <li>GraphQL</li>
             </ul>
-        </div>
+        </section>
     )
 }
