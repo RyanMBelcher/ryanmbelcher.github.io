@@ -1,4 +1,23 @@
 .about-me {
     width: 80%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 500p;
+}
+
+#section-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto;
+    padding: 20px;
+    width: 70%;
 }

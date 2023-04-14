@@ -1,6 +1,7 @@
 #root {
   background: rgb(70, 49, 145);
-  background: linear-gradient(180deg, rgba(70, 49, 145, 1) 0%, rgba(231, 38, 150, 1) 50%, rgba(250, 207, 49, 1) 100%);
+  background: linear-gradient(180deg, rgba(108, 26, 104, 1) 20%, rgba(49, 133, 147,1) 60%, rgba(18, 249, 138, 1) 90%);
+  color: #FFF
 }
 
 .App {

@@ -1,7 +1,12 @@
 .header-svg {
-    fill: #C1B0F5;
-    width: 125px;
-    height: 125px;
+    fill: #D612C8;
+    width: 120px;
+    height: 120px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
 }
 
 .header-list {
@@ -18,7 +23,7 @@
 }
 
 .header-item-selected .header-svg {
-    fill: #9696E0;
+    fill: #FF00D8;
 }
 
 header {
@@ -30,6 +35,12 @@ header {
     align-items: flex-start;
     z-index: 1;
     justify-content: end;
+}
+
+h1 {
+    font-family: 'Alien Encounters';
+    font-size: 400%;
+    color: rgb(18, 249, 138);
 }
 
 #my-avatar {

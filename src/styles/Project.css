@@ -46,9 +46,9 @@
 
 .project-container:hover img {
     box-shadow:
-        2px 4px 8px 1px #6BDAFD,
-        4px 8px 16px 1px #6BDAFD,
-        4px 8px 32px 1px #6BDAFD;
+        2px 4px 8px 1px #E6864B,
+        4px 8px 16px 1px #E6864B,
+        4px 8px 32px 1px #E6864B;
     opacity: 0.6;
 }
 
