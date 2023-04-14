@@ -16,7 +16,7 @@ import 'swiper/css/scrollbar';
 
 export default function Portfolio() {
     return (
-        <div>
+        <section>
             <h2 className='section-header'>Portfolio</h2>
             <Swiper
                 spaceBetween={50}
@@ -57,7 +57,7 @@ export default function Portfolio() {
                     <li class="glide__slide"><Project deployedLink={'https://ryanmbelcher.github.io/quiz-app/'} repoLink={'https://github.com/RyanMBelcher/quiz-app'} name={`Quiz App`} image={imageSix} alt={''} description={''} /></li>
                 </SwiperSlide>
             </Swiper>
-        </div>
+        </section>
     );
 };
 

@@ -29,12 +29,12 @@
 header {
     width: 10%;
     padding: 40px;
-    margin: -40px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     z-index: 1;
-    justify-content: end;
+    justify-content: center;
+    text-align: center;
 }
 
 h1 {

@@ -1,6 +1,6 @@
 #root {
   background: rgb(70, 49, 145);
-  background: linear-gradient(180deg, rgba(108, 26, 104, 1) 20%, rgba(49, 133, 147,1) 60%, rgba(18, 249, 138, 1) 90%);
+  background: linear-gradient(180deg, rgba(108, 26, 104, 1) 20%, rgb(49, 133, 147) 60%, rgba(18, 249, 138, 1) 90%);
   color: #FFF
 }
 
