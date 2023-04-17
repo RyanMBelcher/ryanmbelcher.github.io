@@ -116,6 +116,11 @@ export default function Contact() {
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 0l-6 22-8.129-7.239 7.802-8.234-10.458 7.227-7.215-1.754 24-12zm-15 16.668v7.332l3.258-4.431-3.258-2.901z" /></svg><span className='send-text'>Send</span>
                         </div>
                     </button>
+                    {errorMessage && (
+                    <div>
+                        <p id='error-message'>{errorMessage}</p>
+                    </div>
+                )}
                 </form>
                 <div className='direct-contact-container'>
                     <ul className='contact-list'>
@@ -161,11 +166,6 @@ export default function Contact() {
                         </li>
                     </ul>
                 </div>
-                {errorMessage && (
-                    <div>
-                        <p>{errorMessage}</p>
-                    </div>
-                )}
             </div>
         </section>
     );
