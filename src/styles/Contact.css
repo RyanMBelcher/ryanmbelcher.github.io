@@ -134,6 +134,7 @@
 
 }
 
-.error-message {
+#error-message {
     margin: 10px;
+    padding-top: 10px;
 }
