@@ -1,29 +1,9 @@
-/* .projects-container {
-    display: grid;
-    grid-template-columns: 500px 500px;
-    grid-row: 500px 500px;
-    column-gap: 75px;
-    row-gap: 75px;
-} */
-
 .section-header {
     text-align: center;
     margin: 0 auto;
     padding: 40px 0;
     text-transform: uppercase;
 }
-
-/* .section-wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 0 auto;
-    padding: 20px;
-    position: relative;
-    /* max-width: 100%; 
-}    
-    */
-
 
 .swiper {
     width: 75%;
@@ -43,3 +23,7 @@
 .swiper-button-next {
     color: #FF00D2 !important;
 }
+
+/* @media (max-width: 1200px) {
+
+} */
