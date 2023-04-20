@@ -23,13 +23,3 @@
 .swiper-button-next {
     color: #FF00D2 !important;
 }
-
-@media (max-width: 1200px) {
-    .swiper {
-        display: none;
-    }
-
-    .swiper-slide {
-        display: none;
-    }
-} 

@@ -62,3 +62,14 @@ a {
     text-decoration: none;
     color: #000;
 }
+
+
+@media (max-width: 821px) {
+    li {
+        list-style: none;
+    }
+
+    .project-container img {
+        height: auto;
+    }
+}

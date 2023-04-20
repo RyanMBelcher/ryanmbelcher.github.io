@@ -13,7 +13,7 @@ export function Header({ currentPage, handlePageChange }) {
         setHamburgerOpen(!hamburgerOpen);
     }
 
-    const isMobile = width <= 767;
+    const isMobile = width <= 821;
 
     return (
         <div className='navigation'>
@@ -33,7 +33,7 @@ export function Header({ currentPage, handlePageChange }) {
                 : null}
                 <style jsx>
                 {`
-                    @media (max-width: 767px) {
+                    @media (max-width: 821px) {
                         .navigation {
                             background-color: rgba(230, 134, 75, ${hamburgerOpen ? .8 : 0});
                             transition: background-color 1s ease-out; 
