@@ -37,6 +37,20 @@ export default function Portfolio() {
                 loop={true}
                 centeredSlides={true}
                 scrollbar={{ draggable: true }}
+                breakpoints={{
+                    // 640: {
+                    //   slidesPerView: 2,
+                    //   spaceBetween: 20,
+                    // },
+                    // 768: {
+                    //   slidesPerView: 3,
+                    //   spaceBetween: 40,
+                    // },
+                    // 1024: {
+                    //   slidesPerView: 5,
+                    //   spaceBetween: 50,
+                    // },
+                  }}
             >
                 <SwiperSlide>
                     <li class="glide__slide"><Project deployedLink={'https://sheltered-brushlands-54086.herokuapp.com'} repoLink={'https://github.com/RyanMBelcher/tech-blog'} name={'Tech Blog'} image={imageOne} alt={''} description={''} /></li>

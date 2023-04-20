@@ -8,7 +8,7 @@ export default function Hamburger({ isOpen }){
             <div className='hamburger'>
                 {/* <style jsx>{`
                     .hamburger {
-                        display: none
+                        display: none;
                     }
                     @media (max-width: 767px) {
                         .hamburger {
@@ -29,7 +29,7 @@ export default function Hamburger({ isOpen }){
                         transform: ${ isOpen ? 'rotate(45deg)' : 'rotate(0)'};
                     }
                     .burger2 {
-                        transform: ${ isOpen ? 'translateX(100%)' : 'translate(0)'};
+                        transform: ${ isOpen ? 'translateX(400%)' : 'translate(0)'};
                     }
                     .burger3 {
                         transform: ${ isOpen ? 'rotate(-45deg)' : 'rotate(0)'};

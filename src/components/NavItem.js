@@ -3,12 +3,8 @@ import '../styles/NavItem.css'
 
 export function NavItem({ content, onClick, page, currentPage }) {
     const isSelected = page === currentPage
-    console.log(isSelected, page);
-
 
     return (
-        <div className='navigation'>
-            <ul>
                  <li className={`header-item ${isSelected ? 'header-item-selected' : ''}`} id='active'>
                      <a
                 onClick={onClick}
@@ -19,19 +15,5 @@ export function NavItem({ content, onClick, page, currentPage }) {
                         {content}
                     </a>
             </li>
-            </ul>
-            {/* <style jsx>
-                { `
-                    .navigation ul{
-                        display: ${hamburgerOpen ? 'inline' : 'none'};
-                        height: 100vh;
-                        width: 50vw;
-                        margin-top: 50px;
-                        position: absolute;
-                    }
-                    `}</style> */}
-
-        </div>
-
-    );
+     );
 };
