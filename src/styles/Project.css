@@ -71,8 +71,38 @@ a {
     li {
         list-style: none;
     }
+    
+    .project-container {
+        opacity: 1;
+    }
+
+    .project-container .project-info {
+        opacity: 1;
+        display: none;
+    }
 
     .project-container img {
         height: auto;
+    }
+
+    .project-container:hover  {
+        box-shadow: none;
+        opacity: 1;
+    }
+
+    .portfolio-mobile {
+        display: flex;
+        justify-content: space-around;
+        margin: 10px;
+        color: #fff;
+    }
+
+    .mobile-link {
+        color: #fff;
+        padding: 10px;
+    }
+
+    .mobile-portfolio-svg {
+        fill: #fff
     }
 }
