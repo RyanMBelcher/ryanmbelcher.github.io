@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.274eb9af.css",
-    "main.js": "/react-portfolio/static/js/main.c000a4dc.js",
+    "main.css": "/react-portfolio/static/css/main.906f7ca5.css",
+    "main.js": "/react-portfolio/static/js/main.de2a365a.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/synthwave.png": "/react-portfolio/static/media/synthwave.5692b04fe68b26c12b79.png",
     "static/media/bens-friends.png": "/react-portfolio/static/media/bens-friends.fe20f739227cf3179982.png",
     "static/media/run_app.png": "/react-portfolio/static/media/run_app.cbcd822a71e7047d7f20.png",
     "static/media/blog_homepage.png": "/react-portfolio/static/media/blog_homepage.986ebdabf4e3f10bd35b.png",
     "static/media/weather-dashboard.png": "/react-portfolio/static/media/weather-dashboard.06a37a17e4e2929d12fb.png",
     "static/media/QC_screenshot_1.png": "/react-portfolio/static/media/QC_screenshot_1.513ddd5f31168b2f9422.png",
     "static/media/note-taker-home.png": "/react-portfolio/static/media/note-taker-home.e3ee55c04873c1243550.png",
-    "static/media/myavatar.png": "/react-portfolio/static/media/myavatar.cb27af2312c9a45e91c2.png",
     "index.html": "/react-portfolio/index.html",
-    "main.274eb9af.css.map": "/react-portfolio/static/css/main.274eb9af.css.map",
-    "main.c000a4dc.js.map": "/react-portfolio/static/js/main.c000a4dc.js.map",
+    "main.906f7ca5.css.map": "/react-portfolio/static/css/main.906f7ca5.css.map",
+    "main.de2a365a.js.map": "/react-portfolio/static/js/main.de2a365a.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.274eb9af.css",
-    "static/js/main.c000a4dc.js"
+    "static/css/main.906f7ca5.css",
+    "static/js/main.de2a365a.js"
   ]
 }
