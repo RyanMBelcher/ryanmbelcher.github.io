@@ -1,7 +1,7 @@
 // import React from 'react';
 import Intro from '../Intro'
 import '../../styles/AboutMe.css';
-import myAvatar from '../../images/myavatar.png'
+import myAvatar from '../../images/synthwave.png'
 
 export default function AboutMe() {
     return (

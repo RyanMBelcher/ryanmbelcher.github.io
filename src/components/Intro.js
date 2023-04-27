@@ -1,4 +1,4 @@
-import myAvatar from '../images/myavatar.png'
+import myAvatar from '../images/synthwave.png'
 
 export default function Intro() {
     return (
