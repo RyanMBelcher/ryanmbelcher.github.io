@@ -35,7 +35,7 @@
 
 #about-content-wrapper-child {
     margin: 0 10px;
-    height: 40%;
+    height: 50%;
     width: 75%;
 }
 
@@ -50,6 +50,7 @@
         /* height: 500px; */
         display: flex;
         flex-direction: column;
+        margin-bottom: 10px;
     }
 
     #about-content-wrapper {
