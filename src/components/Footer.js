@@ -41,5 +41,3 @@ export function Footer() {
         </footer>
     )
 }
-
-// https://twitter.com/RyanMBelcher

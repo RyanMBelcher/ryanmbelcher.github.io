@@ -1,12 +1,9 @@
-// import React from 'react';
-import Intro from '../Intro'
 import '../../styles/AboutMe.css';
 import myAvatar from '../../images/synthwave.png'
 
 export default function AboutMe() {
     return (
         <section className='about-me'>
-            {/* <Intro /> */}
             <div id='about'>
                 <h1 id='about-header'>Ryan M Belcher</h1>
                 <div id="about-content-wrapper">

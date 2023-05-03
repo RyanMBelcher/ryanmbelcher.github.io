@@ -7,7 +7,6 @@ import Resume from './pages/Resume';
 import Content from './Content';
 import '../styles/PortfolioContainer.css'
 
-
 export default function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState('AboutMe');
     const renderPage = (curPage) => {

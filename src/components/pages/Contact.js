@@ -3,7 +3,6 @@ import { validateEmail } from '../../utils/helpers';
 import emailjs from '@emailjs/browser';
 import '../../styles/Contact.css';
 
-
 export default function Contact() {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
@@ -13,7 +12,6 @@ export default function Contact() {
 
     const sendEmail = async (e) => {
         e.preventDefault();
-        console.log('send email fired');
 
         try {
             const result = await emailjs.sendForm(
@@ -25,7 +23,6 @@ export default function Contact() {
                 // public key
                 'd2cqSDVz1vZZfUyZ1',
             )
-            console.log(result);
             setName('');
             setEmail('');
             setMessage('');

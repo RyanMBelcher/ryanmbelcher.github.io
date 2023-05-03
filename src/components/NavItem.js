@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../styles/NavItem.css'
 
 export function NavItem({ content, onClick, page, currentPage }) {
