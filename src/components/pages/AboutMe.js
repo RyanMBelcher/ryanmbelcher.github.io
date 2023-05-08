@@ -1,5 +1,5 @@
 import '../../styles/AboutMe.css';
-import myAvatar from '../../images/synthwave.png'
+import myAvatar from '../../images/synthwave2.png'
 
 export default function AboutMe() {
     return (
