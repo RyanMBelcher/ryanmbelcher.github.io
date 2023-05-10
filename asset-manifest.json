@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.d2afbbf1.css",
-    "main.js": "/static/js/main.233c3432.js",
+    "main.css": "/static/css/main.f0da4522.css",
+    "main.js": "/static/js/main.d0819d64.js",
     "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
-    "static/media/synthwave.png": "/static/media/synthwave.5692b04fe68b26c12b79.png",
     "static/media/bens-friends.png": "/static/media/bens-friends.fe20f739227cf3179982.png",
     "static/media/run_app.png": "/static/media/run_app.cbcd822a71e7047d7f20.png",
     "static/media/blog_homepage.png": "/static/media/blog_homepage.986ebdabf4e3f10bd35b.png",
+    "static/media/synthwave2.png": "/static/media/synthwave2.e68490b45e18050d1264.png",
     "static/media/weather-dashboard.png": "/static/media/weather-dashboard.06a37a17e4e2929d12fb.png",
     "static/media/QC_screenshot_1.png": "/static/media/QC_screenshot_1.513ddd5f31168b2f9422.png",
     "static/media/note-taker-home.png": "/static/media/note-taker-home.e3ee55c04873c1243550.png",
     "index.html": "/index.html",
-    "main.d2afbbf1.css.map": "/static/css/main.d2afbbf1.css.map",
-    "main.233c3432.js.map": "/static/js/main.233c3432.js.map",
+    "main.f0da4522.css.map": "/static/css/main.f0da4522.css.map",
+    "main.d0819d64.js.map": "/static/js/main.d0819d64.js.map",
     "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2afbbf1.css",
-    "static/js/main.233c3432.js"
+    "static/css/main.f0da4522.css",
+    "static/js/main.d0819d64.js"
   ]
 }
